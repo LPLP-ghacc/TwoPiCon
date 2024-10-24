@@ -34,15 +34,23 @@ public class Server
     {
         ResonanceTcpServer server = new ResonanceTcpServer(Port);
         server.ConnectionRequest += ServerConnectionRequest;
-
+        Console.Clear();
         Console.WriteLine("Starting server...");
+        Console.ForegroundColor = ConsoleColor.White;   
 
-        Console.WriteLine("Server public IPv4: " + Internet.GetLocalIPv4(NetworkInterfaceType.Ethernet));
-        Console.WriteLine("Server local IPv4: " + Internet.GetLocalIPAddress());
+        Console.Write("Server public IPv4: ");
+        Console.ForegroundColor = ConsoleColor.Green;
+        Console.Write(Internet.GetLocalIPv4(NetworkInterfaceType.Ethernet) + "\n");
+        Console.ForegroundColor = ConsoleColor.White;
+        Console.Write("Server local IPv4: ");
+        Console.ForegroundColor = ConsoleColor.Green;
+        Console.Write(Internet.GetLocalIPAddress() + "\n");
+        Console.ForegroundColor = ConsoleColor.Gray;
 
         await server.StartAsync();
         AudioEndpoint.Init();
         Console.WriteLine("Server started. Awaiting connections...");
+        Console.Title = "Server";
 
         Console.ReadLine();
     }
@@ -87,7 +95,8 @@ public class Server
         }
         else if (e.Message.Object is AudioMessage audioMessage)
         {
-            AudioEndpoint.waveProvider.AddSamples(audioMessage.AudioData, 0, audioMessage.ByteCount);
+            //AudioEndpoint.waveProvider.AddSamples(audioMessage.AudioData, 0, audioMessage.ByteCount);
+            await BroadcastAudioStream(audioMessage);
         }
         else
         {
@@ -100,6 +109,14 @@ public class Server
         foreach (var client in _connectedClients)
         {
             await client.SendAsync(fileMessage);
+        }
+    }
+
+    private static async Task BroadcastAudioStream(AudioMessage audioMessage)
+    {
+        foreach (var client in _connectedClients)
+        {
+            await client.SendAsync(audioMessage);
         }
     }
 
@@ -141,7 +158,7 @@ public class Client
 
     private String RemoteIP { get; set; }
     private Int32 Port { get; set; }
-    private AudioEndpoint AudioEndpoint;
+    private AudioEndpoint AudioEndpoint { get; set; }
 
     public async Task Init()
     {
@@ -166,9 +183,18 @@ public class Client
             {
                 Console.WriteLine($"Received broadcast: {message.Content.Text}");
             }
+            else if (e.Message.Object is AudioMessage audioMessage)
+            {
+                AudioEndpoint.waveProvider.AddSamples(audioMessage.AudioData, 0, audioMessage.ByteCount);
+            }
         };
 
+        AudioEndpoint.Init();
         await transporter.ConnectAsync();
+
+        Console.Title = "Client";
+
+        Console.Clear();
         Console.WriteLine("Connected to server. You can start sending messages.");
     }
 

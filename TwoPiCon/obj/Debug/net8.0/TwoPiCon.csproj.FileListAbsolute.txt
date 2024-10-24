@@ -10,3 +10,4 @@ C:\Users\alpha\source\repos\Connector\TwoPiCon\obj\Debug\net8.0\TwoPiCon.dll
 C:\Users\alpha\source\repos\Connector\TwoPiCon\obj\Debug\net8.0\refint\TwoPiCon.dll
 C:\Users\alpha\source\repos\Connector\TwoPiCon\obj\Debug\net8.0\TwoPiCon.pdb
 C:\Users\alpha\source\repos\Connector\TwoPiCon\obj\Debug\net8.0\ref\TwoPiCon.dll
+C:\Users\alpha\source\repos\Connector\TwoPiCon\obj\Debug\net8.0\TwoPiCon.sourcelink.json

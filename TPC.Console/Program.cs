@@ -13,17 +13,17 @@ public class Program
 
         int port = 5000;
 
-        Console.WriteLine("Select connection type: 0 - Client; 1 - Server.\n");
+        Console.WriteLine("Select TwoPiCon type: 0 - Client; 1 - Server.\n");
 
         int ct = Int32.Parse(Console.ReadLine());
 
         if(ct == 1)
-        {
+        {      
             var server = await tPC.GetServerAsync(port);
-
         }
         else if(ct == 0)
         {
+            
             Console.WriteLine("Connect to IP:\n");
 
             string stringremoteIP = Console.ReadLine();
