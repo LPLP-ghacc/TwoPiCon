@@ -1,0 +1,12 @@
+C:\Users\alpha\source\repos\Connector\TwoPiCon\bin\Debug\net8.0\TwoPiCon.deps.json
+C:\Users\alpha\source\repos\Connector\TwoPiCon\bin\Debug\net8.0\TwoPiCon.dll
+C:\Users\alpha\source\repos\Connector\TwoPiCon\bin\Debug\net8.0\TwoPiCon.pdb
+C:\Users\alpha\source\repos\Connector\TwoPiCon\obj\Debug\net8.0\TwoPiCon.csproj.AssemblyReference.cache
+C:\Users\alpha\source\repos\Connector\TwoPiCon\obj\Debug\net8.0\TwoPiCon.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alpha\source\repos\Connector\TwoPiCon\obj\Debug\net8.0\TwoPiCon.AssemblyInfoInputs.cache
+C:\Users\alpha\source\repos\Connector\TwoPiCon\obj\Debug\net8.0\TwoPiCon.AssemblyInfo.cs
+C:\Users\alpha\source\repos\Connector\TwoPiCon\obj\Debug\net8.0\TwoPiCon.csproj.CoreCompileInputs.cache
+C:\Users\alpha\source\repos\Connector\TwoPiCon\obj\Debug\net8.0\TwoPiCon.dll
+C:\Users\alpha\source\repos\Connector\TwoPiCon\obj\Debug\net8.0\refint\TwoPiCon.dll
+C:\Users\alpha\source\repos\Connector\TwoPiCon\obj\Debug\net8.0\TwoPiCon.pdb
+C:\Users\alpha\source\repos\Connector\TwoPiCon\obj\Debug\net8.0\ref\TwoPiCon.dll
