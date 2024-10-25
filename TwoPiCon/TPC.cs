@@ -12,6 +12,8 @@ using TwoPiCon.Core;
 using static System.Net.Mime.MediaTypeNames;
 using System.Collections.ObjectModel;
 using TwoPiCon.Core.Abstract.Files;
+using System.Reflection;
+using NAudio.Wave;
 using TwoPiCon.Core.Abstract.Audio;
 
 namespace TwoPiCon;
@@ -19,16 +21,17 @@ namespace TwoPiCon;
 public class Server
 {
     private static List<IResonanceTransporter> _connectedClients = new List<IResonanceTransporter>();
+    
     private static ObservableCollection<TextMessage> Messages = new ObservableCollection<TextMessage>();
 
     public Server(Int32 port)
     {
         Port = port;
-        AudioEndpoint = new AudioEndpoint();
+        AudioServer = new AudioServer();
     }
 
     private Int32 Port { get; set; }
-    private AudioEndpoint AudioEndpoint { get; set; }
+    private AudioServer AudioServer { get; set; }
 
     public async Task Init()
     {
@@ -48,10 +51,11 @@ public class Server
         Console.ForegroundColor = ConsoleColor.Gray;
 
         await server.StartAsync();
-        AudioEndpoint.Init();
         Console.WriteLine("Server started. Awaiting connections...");
-        Console.Title = "Server";
 
+        var listeningTask = Task.Run(() => AudioServer.Start());
+
+        Console.Title = "Server";
         Console.ReadLine();
     }
 
@@ -74,6 +78,7 @@ public class Server
             }
         };
 
+
         await transporter.ConnectAsync();
         Console.WriteLine("Client connected.");
     }
@@ -93,11 +98,6 @@ public class Server
             Console.WriteLine($"Received file from client: {fileMessage.FileName}");
             await BroadcastFile(fileMessage);
         }
-        else if (e.Message.Object is AudioMessage audioMessage)
-        {
-            //AudioEndpoint.waveProvider.AddSamples(audioMessage.AudioData, 0, audioMessage.ByteCount);
-            await BroadcastAudioStream(audioMessage);
-        }
         else
         {
             Console.WriteLine($"Received unknown message type.");
@@ -109,14 +109,6 @@ public class Server
         foreach (var client in _connectedClients)
         {
             await client.SendAsync(fileMessage);
-        }
-    }
-
-    private static async Task BroadcastAudioStream(AudioMessage audioMessage)
-    {
-        foreach (var client in _connectedClients)
-        {
-            await client.SendAsync(audioMessage);
         }
     }
 
@@ -152,13 +144,12 @@ public class Client
     {
         RemoteIP = remoteIP;
         Port = port;
-
-        AudioEndpoint = new AudioEndpoint();
+        AudioClient = new AudioClient(remoteIP);
     }
 
     private String RemoteIP { get; set; }
     private Int32 Port { get; set; }
-    private AudioEndpoint AudioEndpoint { get; set; }
+    private AudioClient AudioClient { get; set; }
 
     public async Task Init()
     {
@@ -183,13 +174,8 @@ public class Client
             {
                 Console.WriteLine($"Received broadcast: {message.Content.Text}");
             }
-            else if (e.Message.Object is AudioMessage audioMessage)
-            {
-                AudioEndpoint.waveProvider.AddSamples(audioMessage.AudioData, 0, audioMessage.ByteCount);
-            }
         };
 
-        AudioEndpoint.Init();
         await transporter.ConnectAsync();
 
         Console.Title = "Client";
@@ -198,14 +184,15 @@ public class Client
         Console.WriteLine("Connected to server. You can start sending messages.");
     }
 
-    public void StartAudioTransmission()
+    public async Task StartAudioTransmission()
     {
-        AudioEndpoint.StartAudioTransmission(transporter);
+        await Task.Run(AudioClient.Start);
+        
     }
 
-    public void StopAudioTransmission()
+    public void StopAudioTransmission() 
     {
-        AudioEndpoint.StopAudioTransmission();
+
     }
 
     public async Task SendMessageAsync(string text)
