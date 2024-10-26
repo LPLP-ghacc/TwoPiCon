@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TwoPiCon")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a644e349e5077a3e931e618885b9e516a97637a6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fe20b86d6012417733835af239c8b35fad2ed8d5")]
 [assembly: System.Reflection.AssemblyProductAttribute("TwoPiCon")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TwoPiCon")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
