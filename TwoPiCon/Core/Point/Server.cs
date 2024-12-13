@@ -3,10 +3,7 @@ using Resonance;
 using Resonance.Adapters.Tcp;
 using Resonance.Servers.Tcp;
 using System.Net.NetworkInformation;
-using TwoPiCon.Core.Abstract.Chat;
-using TwoPiCon.Core;
-using TwoPiCon.Core.Abstract.Files;
-using TwoPiCon.Core.Abstract.Audio;
+using TwoPiCon.Models.Chat;
 
 namespace TwoPiCon.Core.Point;
 
@@ -22,7 +19,6 @@ public class Server
     }
 
     private int Port { get; set; }
-    private VoiceChatServer? AudioServer { get; set; }
     private bool IsDebug { get; set; }
 
     public async Task Start()
@@ -35,40 +31,20 @@ public class Server
             Console.Clear();
             Console.WriteLine("Starting server...");
             Console.ForegroundColor = ConsoleColor.White;
-
             Console.Write("Server public IPv4: ");
             Console.ForegroundColor = ConsoleColor.Green;
-            Console.Write(Internet.GetLocalIPv4(NetworkInterfaceType.Ethernet) + "\n");
+            Console.WriteLine(Internet.GetLocalIPv4(NetworkInterfaceType.Ethernet));
             Console.ForegroundColor = ConsoleColor.White;
             Console.Write("Server local IPv4: ");
             Console.ForegroundColor = ConsoleColor.Green;
-            Console.Write(Internet.GetLocalIPAddress() + "\n");
+            Console.WriteLine(Internet.GetLocalIPAddress());
             Console.ForegroundColor = ConsoleColor.Gray;
         }
 
         await _server.StartAsync();
-        StartListeningVoiceChat();
 
         if (IsDebug)
-            Console.WriteLine("Server started. Awaiting connections...");  
-    }
-
-    public void Stop()
-    {
-        _server.Stop();
-        _server.Dispose();
-    }
-
-    public void StartListeningVoiceChat()
-    {
-        AudioServer = new VoiceChatServer(IsDebug);
-        var listening = Task.Run(() => AudioServer.Start());
-    }
-
-    public void StopListeningVoiceChat()
-    {
-        if(AudioServer != null)
-            AudioServer.Stop();
+            Console.WriteLine("Server started. Awaiting connections...");
     }
 
     private async void ServerConnectionRequest(object? sender, ResonanceListeningServerConnectionRequestEventArgs<TcpAdapter> e)
@@ -79,76 +55,39 @@ public class Server
             .WithJsonTranscoding()
             .Build();
 
-        _connectedClients.Add(transporter);
         transporter.MessageReceived += TransporterMessageReceived;
-        transporter.StateChanged += (s, args) =>
+
+        transporter.StateChanged += async (s, args) =>
         {
-            if (transporter.State == ResonanceComponentState.Failed || transporter.State == ResonanceComponentState.Disconnected)
+            if (transporter.State == ResonanceComponentState.Connected)
             {
-                _connectedClients.Remove(transporter);
-                if (IsDebug)
-                    Console.WriteLine("Client disconnected.");
+
             }
         };
 
         await transporter.ConnectAsync();
+        _connectedClients.Add(transporter);
+
         if (IsDebug)
             Console.WriteLine("Client connected.");
     }
 
     private async void TransporterMessageReceived(object? sender, ResonanceMessageReceivedEventArgs e)
     {
-        if (e.Message.Object is TextMessage message)
+        if (e.Message.Object is SampleTextMessage sMessage)
         {
             if (IsDebug)
             {
-                Console.WriteLine(e.Message.Object.ToString());
-                Console.WriteLine($"Received message from client: {message.Content.Text}");
+                Console.WriteLine($"Received message from client: {sMessage.Content}");
             }
-
-            await BroadcastMessage(message);
-        }
-        else if (e.Message.Object is FileMessage fileMessage)
-        {
-            if (IsDebug)
-                Console.WriteLine($"Received file from client: {fileMessage.FileName}");
-            await BroadcastFile(fileMessage);
-        }
-        else
-        {
-            if (IsDebug)
-                Console.WriteLine($"Received unknown message type.");
+            await BroadcastSMessage(sMessage);
         }
     }
 
-    private static async Task BroadcastFile(FileMessage fileMessage)
+    private static async Task BroadcastSMessage(SampleTextMessage message)
     {
         foreach (var client in _connectedClients)
         {
-            await client.SendAsync(fileMessage);
-        }
-    }
-
-    public async Task ReceiveFileAsync(FileMessage fileMessage)
-    {
-        string filePath = Path.Combine("ReceivedFiles", fileMessage.FileName);
-        await File.WriteAllBytesAsync(filePath, fileMessage.FileData);
-        if (IsDebug)
-            Console.WriteLine($"File received and saved to {filePath}");
-    }
-
-    private static async Task BroadcastMessage(TextMessage message)
-    {
-        foreach (var client in _connectedClients)
-        {
-            //client.SendAsync(message).ContinueWith((task) =>
-            //{
-            //    if (task.IsFaulted)
-            //    {
-            //        Console.WriteLine($"Failed to send message to a client: {task.Exception?.GetBaseException().Message}");
-            //    }
-            //});
-
             await client.SendAsync(message);
         }
     }
