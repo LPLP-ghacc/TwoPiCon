@@ -1,9 +1,7 @@
-﻿namespace TwoPiCon.Core.Enums;
-
-public enum PointType
+﻿public enum PointType
 {
     Client,
     Server,
-    Host,
-    Default
+    Host
 }
+

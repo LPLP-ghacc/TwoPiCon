@@ -30,3 +30,11 @@ C:\Users\alpha\source\repos\Connector\TPC.Test1\obj\Debug\net8.0\refint\TPC.Test
 C:\Users\alpha\source\repos\Connector\TPC.Test1\obj\Debug\net8.0\TPC.Test1.pdb
 C:\Users\alpha\source\repos\Connector\TPC.Test1\obj\Debug\net8.0\TPC.Test1.genruntimeconfig.cache
 C:\Users\alpha\source\repos\Connector\TPC.Test1\obj\Debug\net8.0\ref\TPC.Test1.dll
+C:\Users\alpha\source\repos\Connector\TPC.Test1\bin\Debug\net8.0\NAudio.dll
+C:\Users\alpha\source\repos\Connector\TPC.Test1\bin\Debug\net8.0\NAudio.Asio.dll
+C:\Users\alpha\source\repos\Connector\TPC.Test1\bin\Debug\net8.0\NAudio.Core.dll
+C:\Users\alpha\source\repos\Connector\TPC.Test1\bin\Debug\net8.0\NAudio.Midi.dll
+C:\Users\alpha\source\repos\Connector\TPC.Test1\bin\Debug\net8.0\NAudio.Wasapi.dll
+C:\Users\alpha\source\repos\Connector\TPC.Test1\bin\Debug\net8.0\NAudio.WinMM.dll
+C:\Users\alpha\source\repos\Connector\TPC.Test1\bin\Debug\net8.0\TwoPiCon.dll
+C:\Users\alpha\source\repos\Connector\TPC.Test1\bin\Debug\net8.0\TwoPiCon.pdb

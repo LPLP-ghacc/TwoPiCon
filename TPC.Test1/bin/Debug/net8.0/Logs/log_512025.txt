@@ -1,0 +1,531 @@
+Server:  Starting server... -- 05.01.2025 0:29:55 
+Server:  Server started. -- 05.01.2025 0:29:55 
+Client:  Trying to connect... -- 05.01.2025 0:30:06 
+Server:  Transporter connected. -- 05.01.2025 0:30:06 
+Server:  Server transporter connected. -- 05.01.2025 0:30:06 
+Client:  Connection successful. -- 05.01.2025 0:30:06 
+Server:  Message received from TcpAdapter 1 -- 05.01.2025 0:30:06 
+Server:  Server: handshake! -- 05.01.2025 0:30:07 
+Client:  My ClientID: 9665 -- 05.01.2025 0:30:07 
+Client:  message [/sa] has been sent. -- 05.01.2025 0:30:09 
+Server:  Message received from TcpAdapter 1 -- 05.01.2025 0:30:09 
+Server:  Transporter failed. Check network settings. -- 05.01.2025 0:30:20 
+Server:  Starting server... -- 05.01.2025 0:32:13 
+Server:  Server started. -- 05.01.2025 0:32:13 
+Client:  Audio client is On -- 05.01.2025 0:32:17 
+Client:  Trying to connect... -- 05.01.2025 0:32:20 
+Server:  Transporter connected. -- 05.01.2025 0:32:20 
+Server:  Server transporter connected. -- 05.01.2025 0:32:20 
+Client:  Connection successful. -- 05.01.2025 0:32:20 
+Server:  Message received from TcpAdapter 1 -- 05.01.2025 0:32:20 
+Server:  Server: handshake! -- 05.01.2025 0:32:20 
+Client:  My client ID: 14481 -- 05.01.2025 0:32:20 
+Server:  Transporter failed. Check network settings. -- 05.01.2025 0:32:36 
+Server:  Starting server... -- 05.01.2025 0:46:49 
+Server:  Server started. -- 05.01.2025 0:46:49 
+Client:  Audio client is On -- 05.01.2025 0:46:53 
+Client:  Trying to connect... -- 05.01.2025 0:47:01 
+Server:  Transporter connected. -- 05.01.2025 0:47:01 
+Server:  Server transporter connected. -- 05.01.2025 0:47:01 
+Client:  Connection successful. -- 05.01.2025 0:47:01 
+Server:  Message received from TcpAdapter 1 -- 05.01.2025 0:47:01 
+Server:  Server: handshake! -- 05.01.2025 0:47:01 
+Client:  My client ID: 13487 -- 05.01.2025 0:47:01 
+Server:  Transporter failed. Check network settings. -- 05.01.2025 0:47:14 
+Server:  Starting server... -- 05.01.2025 0:49:25 
+Server:  Server started. -- 05.01.2025 0:49:25 
+Client:  Audio client is On -- 05.01.2025 0:49:31 
+Client:  Trying to connect... -- 05.01.2025 0:49:37 
+Server:  Transporter connected. -- 05.01.2025 0:49:37 
+Client:  Connection successful. -- 05.01.2025 0:49:37 
+Server:  Server transporter connected. -- 05.01.2025 0:49:37 
+Server:  Message received from TcpAdapter 1 -- 05.01.2025 0:49:37 
+Server:  Server: handshake! -- 05.01.2025 0:49:37 
+Client:  My client ID: 11977 -- 05.01.2025 0:49:37 
+Client:  Audio capture started. -- 05.01.2025 0:49:40 
+Server:  Transporter failed. Check network settings. -- 05.01.2025 0:49:43 
+Server:  Starting server... -- 05.01.2025 0:49:52 
+Server:  Server started. -- 05.01.2025 0:49:52 
+Client:  Audio client is On -- 05.01.2025 0:50:00 
+Client:  Trying to connect... -- 05.01.2025 0:50:02 
+Server:  Transporter connected. -- 05.01.2025 0:50:02 
+Server:  Server transporter connected. -- 05.01.2025 0:50:02 
+Client:  Connection successful. -- 05.01.2025 0:50:02 
+Server:  Message received from TcpAdapter 1 -- 05.01.2025 0:50:03 
+Server:  Server: handshake! -- 05.01.2025 0:50:03 
+Client:  My client ID: 17229 -- 05.01.2025 0:50:03 
+Client:  Audio capture started. -- 05.01.2025 0:50:05 
+Server:  Transporter failed. Check network settings. -- 05.01.2025 0:50:36 
+Server:  Starting server... -- 05.01.2025 0:51:59 
+Server:  Server started. -- 05.01.2025 0:51:59 
+Client:  Audio client is On -- 05.01.2025 0:52:07 
+Client:  Trying to connect... -- 05.01.2025 0:52:14 
+Server:  Transporter connected. -- 05.01.2025 0:52:14 
+Server:  Server transporter connected. -- 05.01.2025 0:52:14 
+Client:  Connection successful. -- 05.01.2025 0:52:14 
+Server:  Message received from TcpAdapter 1 -- 05.01.2025 0:52:14 
+Server:  Server: handshake! -- 05.01.2025 0:52:14 
+Client:  My client ID: 3391 -- 05.01.2025 0:52:15 
+Client:  Audio capture started. -- 05.01.2025 0:52:16 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:52:16 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:52:16 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:52:16 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:52:16 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:52:16 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:52:17 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:52:17 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:52:17 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:52:17 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:52:17 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:52:17 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:52:17 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:52:17 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:52:17 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:52:17 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:52:18 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:52:18 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:52:18 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:52:18 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:52:18 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:52:18 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:52:18 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:52:18 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:52:18 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:52:18 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:52:19 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:52:19 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:52:19 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:52:19 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:52:19 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:52:19 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:52:19 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:52:19 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:52:19 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:52:19 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:52:20 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:52:20 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:52:20 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:52:20 
+Server:  Transporter failed. Check network settings. -- 05.01.2025 0:52:20 
+Client:  Audio client is On -- 05.01.2025 0:53:35 
+Client:  Audio client is On -- 05.01.2025 0:53:45 
+Server:  Starting server... -- 05.01.2025 0:53:48 
+Server:  Server started. -- 05.01.2025 0:53:48 
+Client:  Trying to connect... -- 05.01.2025 0:54:00 
+Server:  Transporter connected. -- 05.01.2025 0:54:00 
+Server:  Server transporter connected. -- 05.01.2025 0:54:00 
+Client:  Connection successful. -- 05.01.2025 0:54:00 
+Server:  Message received from TcpAdapter 1 -- 05.01.2025 0:54:00 
+Server:  Server: handshake! -- 05.01.2025 0:54:00 
+Client:  My client ID: 11607 -- 05.01.2025 0:54:00 
+Client:  Audio client is On -- 05.01.2025 0:54:07 
+Client:  Trying to connect... -- 05.01.2025 0:54:08 
+Server:  Transporter connected. -- 05.01.2025 0:54:08 
+Server:  Server transporter connected. -- 05.01.2025 0:54:08 
+Client:  Connection successful. -- 05.01.2025 0:54:08 
+Server:  Server: handshake! -- 05.01.2025 0:54:08 
+Client:  My client ID: 20683 -- 05.01.2025 0:54:08 
+Client:  Audio capture started. -- 05.01.2025 0:54:23 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:23 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:23 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:23 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:23 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:23 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:23 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:23 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:23 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:24 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:24 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:24 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:24 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:24 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:24 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:24 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:24 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:24 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:24 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:25 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:25 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:25 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:25 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:25 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:25 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:25 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:25 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:25 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:25 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:26 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:26 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:26 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:26 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:26 
+Client:  Audio capture started. -- 05.01.2025 0:54:26 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:26 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:26 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:26 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:26 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:26 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:26 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:26 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:26 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:26 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:27 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:27 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:27 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:27 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:27 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:27 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:27 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:27 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:27 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:27 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:27 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:27 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:27 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:27 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:27 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:27 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:27 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:27 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:27 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:27 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:28 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:28 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:28 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:28 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:28 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:28 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:28 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:28 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:28 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:28 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:28 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:28 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:28 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:28 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:28 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:28 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:28 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:28 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:28 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:28 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:29 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:29 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:29 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:29 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:29 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:29 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:29 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:29 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:29 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:29 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:29 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:29 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:29 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:29 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:29 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:29 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:29 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:29 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:29 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:29 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:30 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:30 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:30 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:30 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:30 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:30 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:30 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:30 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:30 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:30 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:30 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:30 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:30 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:30 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:30 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:30 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:30 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:30 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:30 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:30 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:31 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:31 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:31 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:31 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:31 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:31 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:31 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:31 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:31 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:31 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:31 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:31 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:31 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:32 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:32 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:32 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:32 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:32 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:32 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:32 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:32 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:32 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:32 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:33 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:33 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:33 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:33 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:33 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:33 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:33 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:33 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:33 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:33 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:33 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:34 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:34 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:34 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:34 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:54:34 
+Server:  Starting server... -- 05.01.2025 0:54:40 
+Server:  Server started. -- 05.01.2025 0:54:40 
+Server:  Starting server... -- 05.01.2025 0:54:46 
+Server:  Server started. -- 05.01.2025 0:54:46 
+Client:  Audio client is On -- 05.01.2025 0:54:50 
+Client:  Trying to connect... -- 05.01.2025 0:54:54 
+Server:  Transporter connected. -- 05.01.2025 0:54:54 
+Client:  Connection successful. -- 05.01.2025 0:54:54 
+Server:  Server transporter connected. -- 05.01.2025 0:54:54 
+Server:  Message received from TcpAdapter 1 -- 05.01.2025 0:54:54 
+Server:  Server: handshake! -- 05.01.2025 0:54:54 
+Client:  My client ID: 6238 -- 05.01.2025 0:54:54 
+Client:  message [dwq] has been sent. -- 05.01.2025 0:54:55 
+Server:  Message received from TcpAdapter 1 -- 05.01.2025 0:54:55 
+Client:  Audio client is On -- 05.01.2025 0:54:59 
+Client:  Trying to connect... -- 05.01.2025 0:55:01 
+Server:  Transporter connected. -- 05.01.2025 0:55:01 
+Server:  Server transporter connected. -- 05.01.2025 0:55:01 
+Client:  Connection successful. -- 05.01.2025 0:55:01 
+Server:  Message received from TcpAdapter 2 -- 05.01.2025 0:55:01 
+Server:  Server: handshake! -- 05.01.2025 0:55:01 
+Client:  My client ID: 19371 -- 05.01.2025 0:55:01 
+Client:  message [dwq] has been sent. -- 05.01.2025 0:55:02 
+Server:  Starting server... -- 05.01.2025 0:56:06 
+Server:  Server started. -- 05.01.2025 0:56:06 
+Client:  Audio client is On -- 05.01.2025 0:56:12 
+Client:  Trying to connect... -- 05.01.2025 0:56:14 
+Server:  Transporter connected. -- 05.01.2025 0:56:14 
+Server:  Server transporter connected. -- 05.01.2025 0:56:14 
+Client:  Connection successful. -- 05.01.2025 0:56:14 
+Server:  Message received from TcpAdapter 1 -- 05.01.2025 0:56:14 
+Server:  Server: handshake! -- 05.01.2025 0:56:14 
+Client:  My client ID: 21405 -- 05.01.2025 0:56:15 
+Client:  message [hello world] has been sent. -- 05.01.2025 0:56:17 
+Server:  Message received from TcpAdapter 1 -- 05.01.2025 0:56:17 
+Client:  Audio client is On -- 05.01.2025 0:56:22 
+Client:  Trying to connect... -- 05.01.2025 0:56:24 
+Server:  Transporter connected. -- 05.01.2025 0:56:24 
+Server:  Server transporter connected. -- 05.01.2025 0:56:24 
+Client:  Connection successful. -- 05.01.2025 0:56:24 
+Server:  Message received from TcpAdapter 2 -- 05.01.2025 0:56:24 
+Server:  Server: handshake! -- 05.01.2025 0:56:24 
+Client:  My client ID: 20706 -- 05.01.2025 0:56:24 
+Server:  Message received from TcpAdapter 2 -- 05.01.2025 0:56:27 
+Client:  Audio capture started. -- 05.01.2025 0:56:35 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:35 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:35 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:35 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:36 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:36 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:36 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:36 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:36 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:36 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:36 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:36 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:36 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:36 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:37 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:37 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:37 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:37 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:37 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:37 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:37 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:37 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:37 
+Client:  message [wdqd] has been sent. -- 05.01.2025 0:56:37 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:37 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:38 
+Client:  message [qw] has been sent. -- 05.01.2025 0:56:38 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:38 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:38 
+Server:  Message received from TcpAdapter 1 -- 05.01.2025 0:56:38 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:38 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:38 
+Client:  message [dwq] has been sent. -- 05.01.2025 0:56:38 
+Server:  Message received from TcpAdapter 1 -- 05.01.2025 0:56:38 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:38 
+Client:  message [d] has been sent. -- 05.01.2025 0:56:38 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:38 
+Client:  message [wqd] has been sent. -- 05.01.2025 0:56:38 
+Server:  Message received from TcpAdapter 1 -- 05.01.2025 0:56:38 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:38 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:38 
+Client:  message [qw] has been sent. -- 05.01.2025 0:56:38 
+Server:  Message received from TcpAdapter 1 -- 05.01.2025 0:56:38 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:39 
+Server:  Message received from TcpAdapter 1 -- 05.01.2025 0:56:39 
+Client:  message [dqw] has been sent. -- 05.01.2025 0:56:39 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:39 
+Server:  Message received from TcpAdapter 1 -- 05.01.2025 0:56:39 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:39 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:39 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:39 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:39 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:39 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:39 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:39 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:40 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:40 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:40 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:40 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:40 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:40 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:40 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:40 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:40 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:40 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:41 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:41 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:41 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:41 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:41 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:41 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:41 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:41 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:41 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:41 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:42 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:42 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:42 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:42 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:42 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:42 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:42 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:42 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:42 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:42 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:43 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:43 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:43 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:43 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:43 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:43 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:43 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:43 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:43 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:43 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:44 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:44 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:44 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:44 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:44 
+Client:  message [dwqdwqd] has been sent. -- 05.01.2025 0:56:44 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:44 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:44 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:44 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:44 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:44 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:45 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:45 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:45 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:45 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:45 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:45 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:45 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:45 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:45 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:45 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:46 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:46 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:46 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:46 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:46 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:46 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:46 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:46 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:46 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:46 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:47 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:47 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:47 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:47 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:47 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:47 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:47 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:47 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:47 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:47 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:48 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:48 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:48 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:48 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:48 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:48 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:48 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:48 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:48 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:48 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:49 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:49 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:49 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:49 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:49 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:49 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:49 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:49 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:49 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:49 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:50 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:50 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:50 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:50 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:50 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:50 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:50 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:50 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:50 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:50 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:51 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:51 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:51 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:51 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:51 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:51 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:51 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:51 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:51 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:51 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:52 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:52 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:52 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:52 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:52 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:52 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:52 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:52 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:52 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:52 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:53 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:53 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:53 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:53 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:53 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:53 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:53 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:53 
+Client:  Cannot send audio message. Transporter is not connected. -- 05.01.2025 0:56:53 
+Server:  Transporter failed. Check network settings. -- 05.01.2025 0:56:53 
+Server:  Transporter failed. Check network settings. -- 05.01.2025 0:56:54 
